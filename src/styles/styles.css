@@ -1,0 +1,14 @@
+.about,
+.resume,
+.projects,
+.contact {
+    height: 100vh;
+    padding: 60px 20px;
+}
+
+.about h1,
+.resume h1,
+.projects h1,
+.contact h1 {
+    font-size: 5rem;
+}

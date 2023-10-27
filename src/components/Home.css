@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.home {
+    height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.hello {
+    margin: 50px;
+}
+
+.hello h1 {
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+.text p {
+    font-size: 2rem;
+}
+
+.line::after {
+    content: "";
+    width: 90vw;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 5vw;
+}

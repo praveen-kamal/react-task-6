@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5em;
+    /* border-bottom: 1px solid #fff; */
+    position: fixed;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.name {
+    color: #fff;
+    margin: 10px 20px;
+}
+
+.links {
+    margin: 10px;
+}
+
+.links a {
+    margin: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.links a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.2s;
+}
+
+.links a:hover::after {
+    width: 100%;
+}
