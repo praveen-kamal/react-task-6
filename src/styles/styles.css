@@ -2,7 +2,7 @@
 .resume,
 .projects,
 .contact {
-    height: 100vh;
+    min-height: 100vh;
     padding: 60px 20px;
 }
 
@@ -11,4 +11,12 @@
 .projects h1,
 .contact h1 {
     font-size: 5rem;
+}
+
+.about .line,
+.resume .line,
+.projects .line,
+.contact .line {
+    border-bottom: 1px solid #fff;
+    margin: 10px 0px;
 }

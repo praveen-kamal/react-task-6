@@ -3,35 +3,35 @@
     margin: 0px;
 }
 .home {
-    height: 100vh;
-    background: #000;
+    min-height: 100vh;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     color: #fff;
     margin: auto;
-    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .hello {
-    margin: 50px;
+    margin-top: 30vh;
+    margin-bottom: 50px;
 }
 
 .hello h1 {
     font-weight: 100;
-    font-size: 5rem;
+    font-size: 12rem;
 }
 
 .text p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 
-.line::after {
-    content: "";
-    width: 90vw;
-    height: 1px;
-    background: #fff;
+.circle {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
     position: absolute;
-    bottom: 0px;
-    left: 5vw;
+    border: 2px solid white;
 }

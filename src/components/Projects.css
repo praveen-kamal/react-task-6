@@ -1,0 +1,50 @@
+.project-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.project-details {
+    flex: 1;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.project-img {
+    padding: 10px;
+    margin: 10px 10px;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    opacity: 0.1;
+}
+
+.divider {
+    margin: 25px auto;
+    width: 85%;
+    border-bottom: 1px solid #fff;
+}
+
+.load-more {
+    font-size: 1.1rem;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    background-color: #000;
+    transition: all ease 0.3s;
+}
+
+.load-more:hover {
+    cursor: inherit;
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #000;
+}

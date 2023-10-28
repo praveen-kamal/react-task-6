@@ -7,11 +7,11 @@
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.5em;
-    /* border-bottom: 1px solid #fff; */
     position: fixed;
     width: 100vw;
     padding-top: 10px;
     padding-bottom: 10px;
+    z-index: 1;
 }
 
 .name {
@@ -23,15 +23,21 @@
     margin: 10px;
 }
 
-.links a {
-    margin: 10px;
+a {
+    display: inline-block;
+    margin: 0px 10px;
     padding-top: 10px;
     text-decoration: none;
     color: #fff;
     position: relative;
+    transition: transform 0.5s;
 }
 
-.links a::after {
+a:hover {
+    transform: skewX(-10deg);
+}
+
+a::after {
     content: "";
     display: block;
     width: 0;
@@ -40,9 +46,9 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: width 0.2s;
+    transition: width 0.3s;
 }
 
-.links a:hover::after {
+a:hover::after {
     width: 100%;
 }
