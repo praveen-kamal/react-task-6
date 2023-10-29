@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/styles.css";
-import "./Resume.css";
+import "../styles/Resume.css";
 
 function Resume() {
     return (

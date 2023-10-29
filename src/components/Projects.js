@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/styles.css";
-import "./Projects.css";
+import "../styles/Projects.css";
 
 function Projects() {
     return (
@@ -85,7 +85,7 @@ function Projects() {
             <div className="divider"></div>
 
             <button className="load-more">
-                <span>Load More</span>
+                Load More
             </button>
         </div>
     );

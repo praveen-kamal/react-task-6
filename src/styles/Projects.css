@@ -5,6 +5,7 @@
     min-height: 50vh;
     font-size: 1.5rem;
     line-height: 1.5;
+    transition: transform 1s;
 }
 
 .project-details {
@@ -34,10 +35,10 @@
     font-size: 1.1rem;
     display: block;
     margin: auto;
-    padding: 15px;
+    padding: 10px;
     color: #fff;
     border: 1px solid #fff;
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: #000;
     transition: all ease 0.3s;
 }
@@ -47,4 +48,8 @@
     transform: scale(1.1);
     background-color: #fff;
     color: #000;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
 }
